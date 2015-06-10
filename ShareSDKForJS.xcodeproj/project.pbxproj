@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		180A7D6B1B281ABF00739E3C /* SinaWeiboConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A5718D9B17500FD3364 /* SinaWeiboConnection.framework */; };
 		186634D81B1DE81400B63A14 /* ShareSDKJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 186634D61B1DE81400B63A14 /* ShareSDKJSBridge.m */; };
-		187539D91B084C87008624E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416ED78C18D7DE5100AE0251 /* UIKit.framework */; };
 		187539E51B088E71008624E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ED80818D8321B00AE0251 /* ViewController.m */; };
 		187539E61B088F1A008624E7 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A8118D9B17600FD3364 /* libWeChatSDK.a */; };
 		1894D5091B2829F40017B6F7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894D5081B2829F40017B6F7 /* icon.png */; };
-		414DBDED18DC363F00E66215 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414DBDEC18DC363F00E66215 /* CoreMotion.framework */; };
-		414DBDEF18DC366400E66215 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 414DBDEE18DC366400E66215 /* libstdc++.dylib */; };
-		416ED7F118D8321B00AE0251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416ED77B18D7DE5100AE0251 /* Foundation.framework */; };
-		416ED7F318D8321B00AE0251 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416ED7F218D8321B00AE0251 /* CoreGraphics.framework */; };
+		1894D50B1B282D8E0017B6F7 /* money.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1894D50A1B282D8E0017B6F7 /* money.wav */; };
+		1894D50C1B2830810017B6F7 /* AGCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A6418D9B17500FD3364 /* AGCommon.framework */; };
+		1894D50E1B28326F0017B6F7 /* ShareSDKFlatShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A8B18D9B17600FD3364 /* ShareSDKFlatShareViewUI.framework */; };
+		1894D50F1B2834A80017B6F7 /* SinaWeiboConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A5718D9B17500FD3364 /* SinaWeiboConnection.framework */; };
+		1894D5101B2834BE0017B6F7 /* ShareSDKCoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A6818D9B17500FD3364 /* ShareSDKCoreService.framework */; };
+		1894D5111B2836120017B6F7 /* ShareSDKShareActionSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A9518D9B17600FD3364 /* ShareSDKShareActionSheet.framework */; };
+		1894D5131B28398F0017B6F7 /* close.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1894D5121B28398F0017B6F7 /* close.wav */; };
+		1894D5151B2839930017B6F7 /* open.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1894D5141B2839930017B6F7 /* open.wav */; };
 		416ED7FA18D8321B00AE0251 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416ED7F818D8321B00AE0251 /* InfoPlist.strings */; };
 		416ED7FC18D8321B00AE0251 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ED7FB18D8321B00AE0251 /* main.m */; };
 		416ED80018D8321B00AE0251 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ED7FF18D8321B00AE0251 /* AppDelegate.m */; };
@@ -27,23 +29,13 @@
 		416ED82A18D832C700AE0251 /* ShareSDK.js in Sources */ = {isa = PBXBuildFile; fileRef = 416ED82818D832C700AE0251 /* ShareSDK.js */; };
 		416ED82B18D83DA800AE0251 /* ShareSDK.js in Resources */ = {isa = PBXBuildFile; fileRef = 416ED82818D832C700AE0251 /* ShareSDK.js */; };
 		41AF5AB218D9B17600FD3364 /* WeChatConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A6018D9B17500FD3364 /* WeChatConnection.framework */; };
-		41AF5AB518D9B17600FD3364 /* AGCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A6418D9B17500FD3364 /* AGCommon.framework */; };
 		41AF5AB618D9B17600FD3364 /* ShareSDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41AF5A6518D9B17500FD3364 /* ShareSDKLocalizable.strings */; };
 		41AF5AB718D9B17600FD3364 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41AF5A6718D9B17500FD3364 /* Resource.bundle */; };
-		41AF5AB818D9B17600FD3364 /* ShareSDKCoreService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A6818D9B17500FD3364 /* ShareSDKCoreService.framework */; };
 		41AF5AC718D9B17600FD3364 /* ShareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A8818D9B17600FD3364 /* ShareSDK.framework */; };
 		41AF5AC818D9B17600FD3364 /* ShareSDKFlatShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41AF5A8A18D9B17600FD3364 /* ShareSDKFlatShareViewUI.bundle */; };
-		41AF5AC918D9B17600FD3364 /* ShareSDKFlatShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A8B18D9B17600FD3364 /* ShareSDKFlatShareViewUI.framework */; };
-		41AF5ACA18D9B17700FD3364 /* ShareSDKiPadDefaultShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41AF5A8C18D9B17600FD3364 /* ShareSDKiPadDefaultShareViewUI.bundle */; };
-		41AF5ACC18D9B17700FD3364 /* ShareSDKiPadSimpleShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41AF5A8E18D9B17600FD3364 /* ShareSDKiPadSimpleShareViewUI.bundle */; };
-		41AF5ACE18D9B17700FD3364 /* ShareSDKiPhoneAppRecommendShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A9018D9B17600FD3364 /* ShareSDKiPhoneAppRecommendShareViewUI.framework */; };
 		41AF5ACF18D9B17700FD3364 /* ShareSDKiPhoneDefaultShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41AF5A9118D9B17600FD3364 /* ShareSDKiPhoneDefaultShareViewUI.bundle */; };
 		41AF5AD018D9B17700FD3364 /* ShareSDKiPhoneDefaultShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A9218D9B17600FD3364 /* ShareSDKiPhoneDefaultShareViewUI.framework */; };
-		41AF5AD118D9B17700FD3364 /* ShareSDKiPhoneSimpleShareViewUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 41AF5A9318D9B17600FD3364 /* ShareSDKiPhoneSimpleShareViewUI.bundle */; };
-		41AF5AD218D9B17700FD3364 /* ShareSDKiPhoneSimpleShareViewUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A9418D9B17600FD3364 /* ShareSDKiPhoneSimpleShareViewUI.framework */; };
-		41AF5AD318D9B17700FD3364 /* ShareSDKShareActionSheet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A9518D9B17600FD3364 /* ShareSDKShareActionSheet.framework */; };
 		41AF5AD518D9B18900FD3364 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5AD418D9B18900FD3364 /* CoreTelephony.framework */; };
-		41AF5AD718D9B19400FD3364 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5AD618D9B19400FD3364 /* MessageUI.framework */; };
 		41AF5AD918D9B1B200FD3364 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5AD818D9B1B200FD3364 /* SystemConfiguration.framework */; };
 		41AF5ADB18D9B1BB00FD3364 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5ADA18D9B1BB00FD3364 /* libz.1.2.5.dylib */; };
 		41AF5ADD18D9B1C300FD3364 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5ADC18D9B1C300FD3364 /* libicucore.dylib */; };
@@ -53,12 +45,11 @@
 		186634D61B1DE81400B63A14 /* ShareSDKJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSDKJSBridge.m; sourceTree = "<group>"; };
 		186634D71B1DE81400B63A14 /* ShareSDKJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSDKJSBridge.h; sourceTree = "<group>"; };
 		1894D5081B2829F40017B6F7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		414DBDEC18DC363F00E66215 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		414DBDEE18DC366400E66215 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
-		414DBDF018DC366A00E66215 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1894D50A1B282D8E0017B6F7 /* money.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = money.wav; sourceTree = "<group>"; };
+		1894D5121B28398F0017B6F7 /* close.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = close.wav; sourceTree = "<group>"; };
+		1894D5141B2839930017B6F7 /* open.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = open.wav; sourceTree = "<group>"; };
 		416ED77B18D7DE5100AE0251 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		416ED78918D7DE5100AE0251 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		416ED78C18D7DE5100AE0251 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		416ED7F018D8321B00AE0251 /* 财富人生.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "财富人生.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		416ED7F218D8321B00AE0251 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		416ED7F718D8321B00AE0251 /* JSSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSSample-Info.plist"; sourceTree = "<group>"; };
@@ -87,18 +78,10 @@
 		41AF5A8818D9B17600FD3364 /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDK.framework; sourceTree = "<group>"; };
 		41AF5A8A18D9B17600FD3364 /* ShareSDKFlatShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKFlatShareViewUI.bundle; sourceTree = "<group>"; };
 		41AF5A8B18D9B17600FD3364 /* ShareSDKFlatShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKFlatShareViewUI.framework; sourceTree = "<group>"; };
-		41AF5A8C18D9B17600FD3364 /* ShareSDKiPadDefaultShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKiPadDefaultShareViewUI.bundle; sourceTree = "<group>"; };
-		41AF5A8D18D9B17600FD3364 /* ShareSDKiPadDefaultShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPadDefaultShareViewUI.framework; sourceTree = "<group>"; };
-		41AF5A8E18D9B17600FD3364 /* ShareSDKiPadSimpleShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKiPadSimpleShareViewUI.bundle; sourceTree = "<group>"; };
-		41AF5A8F18D9B17600FD3364 /* ShareSDKiPadSimpleShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPadSimpleShareViewUI.framework; sourceTree = "<group>"; };
-		41AF5A9018D9B17600FD3364 /* ShareSDKiPhoneAppRecommendShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPhoneAppRecommendShareViewUI.framework; sourceTree = "<group>"; };
 		41AF5A9118D9B17600FD3364 /* ShareSDKiPhoneDefaultShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKiPhoneDefaultShareViewUI.bundle; sourceTree = "<group>"; };
 		41AF5A9218D9B17600FD3364 /* ShareSDKiPhoneDefaultShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPhoneDefaultShareViewUI.framework; sourceTree = "<group>"; };
-		41AF5A9318D9B17600FD3364 /* ShareSDKiPhoneSimpleShareViewUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ShareSDKiPhoneSimpleShareViewUI.bundle; sourceTree = "<group>"; };
-		41AF5A9418D9B17600FD3364 /* ShareSDKiPhoneSimpleShareViewUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKiPhoneSimpleShareViewUI.framework; sourceTree = "<group>"; };
 		41AF5A9518D9B17600FD3364 /* ShareSDKShareActionSheet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShareSDKShareActionSheet.framework; sourceTree = "<group>"; };
 		41AF5AD418D9B18900FD3364 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		41AF5AD618D9B19400FD3364 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		41AF5AD818D9B1B200FD3364 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		41AF5ADA18D9B1BB00FD3364 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		41AF5ADC18D9B1C300FD3364 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
@@ -109,27 +92,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180A7D6B1B281ABF00739E3C /* SinaWeiboConnection.framework in Frameworks */,
-				41AF5AB818D9B17600FD3364 /* ShareSDKCoreService.framework in Frameworks */,
-				41AF5AB518D9B17600FD3364 /* AGCommon.framework in Frameworks */,
 				187539E61B088F1A008624E7 /* libWeChatSDK.a in Frameworks */,
-				414DBDEF18DC366400E66215 /* libstdc++.dylib in Frameworks */,
-				414DBDED18DC363F00E66215 /* CoreMotion.framework in Frameworks */,
 				41AF5ADD18D9B1C300FD3364 /* libicucore.dylib in Frameworks */,
+				1894D50F1B2834A80017B6F7 /* SinaWeiboConnection.framework in Frameworks */,
+				1894D5101B2834BE0017B6F7 /* ShareSDKCoreService.framework in Frameworks */,
 				41AF5ADB18D9B1BB00FD3364 /* libz.1.2.5.dylib in Frameworks */,
 				41AF5AD918D9B1B200FD3364 /* SystemConfiguration.framework in Frameworks */,
-				41AF5AD718D9B19400FD3364 /* MessageUI.framework in Frameworks */,
+				1894D50C1B2830810017B6F7 /* AGCommon.framework in Frameworks */,
 				41AF5AD518D9B18900FD3364 /* CoreTelephony.framework in Frameworks */,
 				41AF5AB218D9B17600FD3364 /* WeChatConnection.framework in Frameworks */,
 				41AF5AC718D9B17600FD3364 /* ShareSDK.framework in Frameworks */,
-				416ED7F318D8321B00AE0251 /* CoreGraphics.framework in Frameworks */,
-				41AF5AC918D9B17600FD3364 /* ShareSDKFlatShareViewUI.framework in Frameworks */,
-				41AF5AD218D9B17700FD3364 /* ShareSDKiPhoneSimpleShareViewUI.framework in Frameworks */,
+				1894D50E1B28326F0017B6F7 /* ShareSDKFlatShareViewUI.framework in Frameworks */,
 				41AF5AD018D9B17700FD3364 /* ShareSDKiPhoneDefaultShareViewUI.framework in Frameworks */,
-				416ED7F118D8321B00AE0251 /* Foundation.framework in Frameworks */,
-				41AF5ACE18D9B17700FD3364 /* ShareSDKiPhoneAppRecommendShareViewUI.framework in Frameworks */,
-				187539D91B084C87008624E7 /* UIKit.framework in Frameworks */,
-				41AF5AD318D9B17700FD3364 /* ShareSDKShareActionSheet.framework in Frameworks */,
+				1894D5111B2836120017B6F7 /* ShareSDKShareActionSheet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,17 +131,12 @@
 		416ED77A18D7DE5100AE0251 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				414DBDF018DC366A00E66215 /* libsqlite3.dylib */,
-				414DBDEE18DC366400E66215 /* libstdc++.dylib */,
-				414DBDEC18DC363F00E66215 /* CoreMotion.framework */,
 				41AF5ADC18D9B1C300FD3364 /* libicucore.dylib */,
 				41AF5ADA18D9B1BB00FD3364 /* libz.1.2.5.dylib */,
 				41AF5AD818D9B1B200FD3364 /* SystemConfiguration.framework */,
-				41AF5AD618D9B19400FD3364 /* MessageUI.framework */,
 				41AF5AD418D9B18900FD3364 /* CoreTelephony.framework */,
 				416ED77B18D7DE5100AE0251 /* Foundation.framework */,
 				416ED78918D7DE5100AE0251 /* XCTest.framework */,
-				416ED78C18D7DE5100AE0251 /* UIKit.framework */,
 				416ED7F218D8321B00AE0251 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
@@ -175,6 +145,9 @@
 		416ED7F518D8321B00AE0251 /* JSSample */ = {
 			isa = PBXGroup;
 			children = (
+				1894D5121B28398F0017B6F7 /* close.wav */,
+				1894D5141B2839930017B6F7 /* open.wav */,
+				1894D50A1B282D8E0017B6F7 /* money.wav */,
 				1894D5081B2829F40017B6F7 /* icon.png */,
 				186634D61B1DE81400B63A14 /* ShareSDKJSBridge.m */,
 				186634D71B1DE81400B63A14 /* ShareSDKJSBridge.h */,
@@ -259,15 +232,8 @@
 			children = (
 				41AF5A8A18D9B17600FD3364 /* ShareSDKFlatShareViewUI.bundle */,
 				41AF5A8B18D9B17600FD3364 /* ShareSDKFlatShareViewUI.framework */,
-				41AF5A8C18D9B17600FD3364 /* ShareSDKiPadDefaultShareViewUI.bundle */,
-				41AF5A8D18D9B17600FD3364 /* ShareSDKiPadDefaultShareViewUI.framework */,
-				41AF5A8E18D9B17600FD3364 /* ShareSDKiPadSimpleShareViewUI.bundle */,
-				41AF5A8F18D9B17600FD3364 /* ShareSDKiPadSimpleShareViewUI.framework */,
-				41AF5A9018D9B17600FD3364 /* ShareSDKiPhoneAppRecommendShareViewUI.framework */,
 				41AF5A9118D9B17600FD3364 /* ShareSDKiPhoneDefaultShareViewUI.bundle */,
 				41AF5A9218D9B17600FD3364 /* ShareSDKiPhoneDefaultShareViewUI.framework */,
-				41AF5A9318D9B17600FD3364 /* ShareSDKiPhoneSimpleShareViewUI.bundle */,
-				41AF5A9418D9B17600FD3364 /* ShareSDKiPhoneSimpleShareViewUI.framework */,
 				41AF5A9518D9B17600FD3364 /* ShareSDKShareActionSheet.framework */,
 			);
 			path = UI;
@@ -281,8 +247,8 @@
 			buildConfigurationList = 416ED81E18D8321B00AE0251 /* Build configuration list for PBXNativeTarget "JSSample" */;
 			buildPhases = (
 				416ED7EC18D8321B00AE0251 /* Sources */,
-				416ED7ED18D8321B00AE0251 /* Frameworks */,
 				416ED7EE18D8321B00AE0251 /* Resources */,
+				416ED7ED18D8321B00AE0251 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -326,18 +292,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41AF5ACA18D9B17700FD3364 /* ShareSDKiPadDefaultShareViewUI.bundle in Resources */,
 				416ED82B18D83DA800AE0251 /* ShareSDK.js in Resources */,
+				1894D50B1B282D8E0017B6F7 /* money.wav in Resources */,
 				41AF5AB618D9B17600FD3364 /* ShareSDKLocalizable.strings in Resources */,
 				416ED80618D8321B00AE0251 /* Main_iPad.storyboard in Resources */,
 				416ED80B18D8321B00AE0251 /* Images.xcassets in Resources */,
 				416ED80318D8321B00AE0251 /* Main_iPhone.storyboard in Resources */,
 				41AF5AB718D9B17600FD3364 /* Resource.bundle in Resources */,
-				41AF5AD118D9B17700FD3364 /* ShareSDKiPhoneSimpleShareViewUI.bundle in Resources */,
+				1894D5131B28398F0017B6F7 /* close.wav in Resources */,
+				1894D5151B2839930017B6F7 /* open.wav in Resources */,
 				1894D5091B2829F40017B6F7 /* icon.png in Resources */,
 				416ED7FA18D8321B00AE0251 /* InfoPlist.strings in Resources */,
 				41AF5ACF18D9B17700FD3364 /* ShareSDKiPhoneDefaultShareViewUI.bundle in Resources */,
-				41AF5ACC18D9B17700FD3364 /* ShareSDKiPadSimpleShareViewUI.bundle in Resources */,
 				41AF5AC818D9B17600FD3364 /* ShareSDKFlatShareViewUI.bundle in Resources */,
 				416ED82918D832C700AE0251 /* Sample.html in Resources */,
 			);

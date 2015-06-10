@@ -396,7 +396,7 @@ static UIView *_refView = nil;
         appKey = [params objectForKey:@"appKey"];
     }
     [ShareSDK registerApp:appKey];
-    
+   
     BOOL statEnable = YES;
     if ([[params objectForKey:@"enableStatistics"] isKindOfClass:[NSNumber class]])
     {
@@ -774,6 +774,10 @@ static UIView *_refView = nil;
 
 - (void)showShareMenuWithSeqId:(NSString *)seqId params:(NSDictionary *)params webView:(UIWebView *)webView
 {
+    
+    NSString *wav = @"open";
+    [self playAudio:wav];
+ 
     NSArray *types = nil;
     if ([[params objectForKey:@"platforms"] isKindOfClass:[NSArray class]])
     {
