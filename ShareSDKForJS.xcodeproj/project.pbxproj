@@ -12,6 +12,7 @@
 		187539D91B084C87008624E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416ED78C18D7DE5100AE0251 /* UIKit.framework */; };
 		187539E51B088E71008624E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416ED80818D8321B00AE0251 /* ViewController.m */; };
 		187539E61B088F1A008624E7 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AF5A8118D9B17600FD3364 /* libWeChatSDK.a */; };
+		1894D5091B2829F40017B6F7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1894D5081B2829F40017B6F7 /* icon.png */; };
 		414DBDED18DC363F00E66215 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414DBDEC18DC363F00E66215 /* CoreMotion.framework */; };
 		414DBDEF18DC366400E66215 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 414DBDEE18DC366400E66215 /* libstdc++.dylib */; };
 		416ED7F118D8321B00AE0251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416ED77B18D7DE5100AE0251 /* Foundation.framework */; };
@@ -51,6 +52,7 @@
 /* Begin PBXFileReference section */
 		186634D61B1DE81400B63A14 /* ShareSDKJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSDKJSBridge.m; sourceTree = "<group>"; };
 		186634D71B1DE81400B63A14 /* ShareSDKJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareSDKJSBridge.h; sourceTree = "<group>"; };
+		1894D5081B2829F40017B6F7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		414DBDEC18DC363F00E66215 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		414DBDEE18DC366400E66215 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		414DBDF018DC366A00E66215 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -173,6 +175,7 @@
 		416ED7F518D8321B00AE0251 /* JSSample */ = {
 			isa = PBXGroup;
 			children = (
+				1894D5081B2829F40017B6F7 /* icon.png */,
 				186634D61B1DE81400B63A14 /* ShareSDKJSBridge.m */,
 				186634D71B1DE81400B63A14 /* ShareSDKJSBridge.h */,
 				41AF5A4218D9B17500FD3364 /* ShareSDK */,
@@ -331,6 +334,7 @@
 				416ED80318D8321B00AE0251 /* Main_iPhone.storyboard in Resources */,
 				41AF5AB718D9B17600FD3364 /* Resource.bundle in Resources */,
 				41AF5AD118D9B17700FD3364 /* ShareSDKiPhoneSimpleShareViewUI.bundle in Resources */,
+				1894D5091B2829F40017B6F7 /* icon.png in Resources */,
 				416ED7FA18D8321B00AE0251 /* InfoPlist.strings in Resources */,
 				41AF5ACF18D9B17700FD3364 /* ShareSDKiPhoneDefaultShareViewUI.bundle in Resources */,
 				41AF5ACC18D9B17700FD3364 /* ShareSDKiPadSimpleShareViewUI.bundle in Resources */,
