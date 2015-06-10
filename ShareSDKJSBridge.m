@@ -404,6 +404,11 @@ static UIView *_refView = nil;
     }
     [ShareSDK statEnabled:statEnable];
 
+    //微信登陆的时候需要初始化
+       [ShareSDK connectWeChatWithAppId:@"wxe00b327e7a0d2a4a"
+                           appSecret:@"292ca06883a56602a8b9009acae96f7d"
+                           wechatCls:[WXApi class]];
+    
     //返回
     NSDictionary *responseDict = @{@"seqId": [NSNumber numberWithInteger:[seqId integerValue]],
                                    @"method" : METHOD_OPEN,
