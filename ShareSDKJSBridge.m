@@ -126,6 +126,7 @@ static UIView *_refView = nil;
                    paramsStr = [paramsStr stringByReplacingCharactersInRange:NSMakeRange(paramsStr.length-1, 1) withString:@""];
                     
                     [self playAudio:paramsStr];
+                    return YES;
                 }else
                     paramsDict = [ShareSDK jsonObjectWithString:paramsStr];
             }
@@ -402,7 +403,7 @@ static UIView *_refView = nil;
         statEnable = [[params objectForKey:@"enableStatistics"] boolValue];
     }
     [ShareSDK statEnabled:statEnable];
-    
+
     //返回
     NSDictionary *responseDict = @{@"seqId": [NSNumber numberWithInteger:[seqId integerValue]],
                                    @"method" : METHOD_OPEN,

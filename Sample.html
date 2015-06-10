@@ -9,10 +9,10 @@
 
         function init()
         {
-            alert('aaa');
-            return;
+            //alert('aaa');
+            //return;
             
-            $sharesdk.open("iosv1101", true);
+            $sharesdk.open("76300569a724", true);
 
             var sinaConf = {};
             sinaConf["app_key"] = "568898243";
@@ -94,12 +94,12 @@
             var params = {
                 "text" : "测试的文字",
                 "imageUrl" : "http://img0.bdstatic.com/img/image/shouye/tangwei.jpg",
-                "title" : "测试的标题",
+                "title" : "测试的标题aaaa",
                 "titleUrl" : "http://sharesdk.cn",
                 "description" : "测试的描述",
                 "site" : "ShareSDK",
-                "siteUrl" : "http://sharesdk.cn",
-                "type" : 1
+                "url" : "http://sharesdk.cn",
+                "type" : $sharesdk.contentType.WebPage
             };
 
             $sharesdk.showShareMenu(null, params, 100, 100, $sharesdk.shareMenuArrowDirection.Any, function (platform, state, shareInfo, error) {

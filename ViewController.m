@@ -25,10 +25,14 @@
     
     //清除UIWebView的缓存
     NSURLCache * cache = [NSURLCache sharedURLCache];
-    [cache removeAllCachedResponses];
+       [cache removeAllCachedResponses];
     [cache setMemoryCapacity:0];
+    //[cache setDiskCapacity:0];
     
-    NSURL *htmlURL  = [NSURL URLWithString:@"http://192.168.31.109:8080/cf/index.html"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Sample" ofType:@"html"];
+    NSURL *htmlURL = [NSURL fileURLWithPath:path];
+    
+    htmlURL  = [NSURL URLWithString:@"http://192.168.123.1:8080/cf/index.html"];
     
     webView.delegate = self;
     [self.view addSubview:webView];
